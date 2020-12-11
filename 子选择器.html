@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+             /* 
+             7.子元素选择器     >
+              只有符合这样子父子结构的才会被选中
+             
+              */
+            .demo11 > li > a {
+                color: crimson;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ul class="demo11">
+            <li> <a href="#"> baidu</a>"</li>
+
+            <li> <a href="#"> tencent</a>"</li>
+
+            <ul>
+            <!-- 这里不会被选中 -->
+            <li> <a href="#"> binxixi</a>"</li>
+
+            </ul>
+
+            <li><a href="#">ali</a></li>
+
+        </ul>
+
+    </body>
+
+
+
+
+
+
+
+</html>
