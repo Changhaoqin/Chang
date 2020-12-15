@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+            table{
+                /* border-collapse: collapse; 边缘-收缩（坍塌):收缩 */
+                border-collapse: separate;/*separate 设置表格边缘分离*/
+                border-spacing: 10px; /* 设置分离大小*/
+
+                empty-cells: hide;/* 把没有填充文字的格子隐藏*/
+            }
+
+            table,th,td{  /*分组， tadle和th和td 都显示下面的样式*/
+                border: 1px solid black; /*复合属性，需要同时指定 粗细 样式 颜色*/
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <table id="tadle">
+
+            <tr>
+                <th>门派</th>
+                <th>姓名</th>
+
+            </tr>
+
+            <tr>
+                <td>混元形意</td>
+                <!-- <td>马保国</td> -->
+
+            </tr>
+
+            <tr>
+                <td>明教</td>
+                <td>张无忌</td>
+            </tr>
+
+            <tr>
+                <td>阿里巴巴</td>
+                <td>马云</td>
+
+            </tr>
+
+        </table>
+
+
+
+
+
+
+
+
+    </body>
+</html>
